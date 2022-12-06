@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/herocreate.css">
+    <title>Create your Hero</title>
+</head>
+<body>
+    <div id="hero-create">
+        <h1>Create your Hero</h1>
+        <div id="hero-panel">
+            <div class="hero">
+                <div class="btn-create-hero">
+                    <span class="hero-avatar"><img src="../../assets/create_hero_btn.png" alt=""></span>
+                </div>
+            </div>
+            <div id="hero-status-board">
+                <div class="hero-name-display">
+                    <p>Hero:<span class="hero-name-status"></span></p>
+                    <p>Role:<span class="hero-role-status"></span></p>
+                </div>
+                <div class="hero-status">
+                    <p>Hp:<span class="hp-status">100</span> </p>
+                    <p>Atack:<span class="atack-status">10</span></p> 
+                    <p>Defense:<span class="defense-status"></span></p> 
+                    <p>Strength:<span class="strength-status"></span></p> 
+                    <p>Intelect:<span class="intelect-status"></span></p> 
+                    <p>Agility:<span class="agility-status"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="create-hero" style="display:none ;">
+        <div class = herojs>
+            <label>Digite o nome do Heroi</label>
+            <input class="name" placeholder ="nome"></input>
+            <button class="confirmar">Confirmar</button>
+            <button class="cancelar">Cancelar</button>
+        </div>
+        
+
+        <div class="role-div">
+            <label >Escolha a raça do Heroi</label>
+            <select class="role-select" name="role">
+                <option value="guerreiro">Guerreiro</option>
+                <option value="mago" selected>Mago</option>
+                <option value="arqueiro">Arqueiro</option>
+            </select>
+        </div>
+        
+    </div>
+    <script type="module" src="../Js/main.js"></script>
+</body>
+</html>

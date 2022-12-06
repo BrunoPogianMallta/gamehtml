@@ -1,0 +1,108 @@
+#hero-create {
+    display:flexbox;
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    justify-items: center;
+    border: 1px solid black;
+}
+
+#hero-panel{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 150px;
+    margin: 5%;
+    border: 1px solid black;
+}
+.hero{
+    text-align: center;
+    /* display: flex; */
+    width: 33%;
+    margin: 5px;
+    border: 1px solid black;
+}
+.hero-status{
+   font-size: 10px;
+    
+}
+.btn-create-hero{
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.hero-avatar{
+    width: 100px;
+    height: 120px;
+    margin-top: 10px;
+}
+.create-hero{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 60px;
+    width:500px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    /* margin-left: -50px; */
+    padding: 10px;
+}
+.role-div{
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.role-div label{
+    margin-left: 18px;
+}
+.role-select{
+    margin-right: 10px;
+}
+.herojs{
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.herojs label{
+    margin-left: 19px;
+}
+
+.hero-name-display{
+    display: flex;
+    width: 200px;
+    height: 20px;
+    margin-left: 10px;
+    justify-content:space-between;
+}
+.hero-name-display p{
+    display: flex;
+    margin: 0;
+    margin-right:10px;
+    text-align: center;
+}
+#hero-status-board{
+    border: 1px solid black;
+    margin: 5px;
+    display: none;
+}
+
+.hero-status{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    margin-top: 15px;
+    margin-left: -180px;
+}
+.hero-status p{
+    /* margin-left: 30px; */
+    display: flex;
+    margin: 0;
+    margin-left: 210px;
+    margin-top: 4px;
+    border-bottom: 1px dotted black;
+    justify-content: space-between;
+    width: 150px;
+    
+}
+.hero-status span{
+    /* margin-right: 20px; */
+}
