@@ -34,7 +34,7 @@ roleSelection.addEventListener('click',()=>{
     if(roleSelection.value === 'guerreiro'){
         heroPanel.innerHTML = `<img class="hero-avatar " src="../../assets/guerreiro_avatar1.png"></img>`
     }else if(roleSelection.value === 'mago'){
-        heroPanel.innerHTML = `<img class="hero-avatar " src="../../assets/mago_avatar1.png"></img>`
+        heroPanel.innerHTML = `<img class="hero-avatar " src="../../assets/mago_avatar2.png"></img>`
     }else{
         heroPanel.innerHTML = `<img class="hero-avatar " src="../../assets/arqueiro_avatar1.png"></img>`
     }

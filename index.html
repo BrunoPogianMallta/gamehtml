@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/account_create_panel.css">
-    <title>game</title>
+    <link rel="stylesheet" href="/gamehtml/front/css/account_create_panel.css">
+    <title>Game - Create Account</title>
 </head>
 <body>
     <div class="account-create-panel">
-        <h3>Create account</h3>
-        <form action="">
-            <!-- <label for="">email</label>
-            <input type="text">
-            <label for="">senha</label>
-            <input type="password" name="password" id="password"> -->
-            <button> <a href="./front/html/createCharacter.html">cadastrar</button></a> 
+        <form action="javascript:void(0);">
+            <button type="submit" id="create-hero-btn">Create Your Hero</button>
         </form>
     </div>
-    <script type="module" src="../Js/consultas.js"></script>
+    <script type="module">
+        // Redireciona o usuário ao clicar no botão
+        document.getElementById('create-hero-btn').addEventListener('click', function() {
+            window.location.href = './front/html/createCharacter.html';
+        });
+    </script>
 </body>
 </html>
